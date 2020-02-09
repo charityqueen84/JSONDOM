@@ -13,3 +13,6 @@
 //
 
 
+//put script tag right before closing html. HTML file loads from top to bottom. In some cases JS code could look for html elements 
+//before they've loaded, which could cause errors. JS regards html doc as the DOM, which means JS is looking at entire HTML doc as
+//one big object called document. 
